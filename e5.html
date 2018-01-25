@@ -16,9 +16,10 @@
         <thead>
         <tr>
             <th>序号</th>
+            <th>图片</th>
             <th>名称</th>
             <th>类型</th>
-            <th>图片</th>
+
         </tr>
         </thead>
         <tbody>
@@ -28,16 +29,18 @@
                 <div class="glyphicon glyphicon-arrow-down" ng-click="getDown($index)"></div>
             </td>
             <td>
+                <!--ng-click="toEdit($index,'photo')"-->
+                <span  ng-hide="user.edit['photo']"><img ng-src='{{ user.photo }}' style="max-width: 200px"/></span>
+                <input type="text" id="photo_{{ $index }}" ng-model="user.photo" ng-show="user.edit['photo']" ng-blur="user.edit['photo']=false"/>
+            </td>
+            <td>
                 <span ng-click="toEdit($index,'name')" ng-hide="user.edit['name']">{{ user.name }}</span>
                 <input type="text" id="name_{{ $index }}" ng-model="user.name" ng-show="user.edit['name']" ng-blur="user.edit['name']=false"/>
             </td>
             <td>
-                <span ng-click="toEdit($index,'type')" ng-hide="user.edit['type']">{{ user.type }}</span>
-                <input type="text" id="type_{{ $index }}" ng-model="user.type" ng-show="user.edit['type']" ng-blur="user.edit['type']=false"/>
-            </td>
-            <td>
-                <span ng-click="toEdit($index,'photo')" ng-hide="user.edit['photo']"><img ng-src='{{ user.photo }}'/></span>
-                <input type="text" id="photo_{{ $index }}" ng-model="user.photo" ng-show="user.edit['photo']" ng-blur="user.edit['photo']=false"/>
+                <span ng-click="toEdit($index,'type')" ng-hide="user.edit['type']">{{ typeEnum[user.type]}}</span>
+                <select ng-model="user.type" ng-options="x as y for (x,y) in typeEnum" ng-show="user.edit['type']" ng-blur="user.edit['type']=false" id="type_{{ $index }}">
+                </select>
             </td>
         </tr>
         </tbody>
@@ -90,6 +93,7 @@
 </div>
 
 <script src="js/myUsers.js"></script>
+<script src="js/e5.js"></script>
 <script src="https://cdn.bootcss.com/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
 </body>
 </html>

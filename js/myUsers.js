@@ -1,36 +1,9 @@
-var module = angular.module('myApp', []);
-module.controller('userCtrl', function($scope,$http) {
-    // $scope.users = [
-    //     {
-    //         "name": "Hege",
-    //         "type": "21",
-    //         "photo": "http://i4.bvimg.com/629651/a508279ca2eac902.png"
-    //     },
-    //     {
-    //         "name": "Kim",
-    //         "type": "21"
-    //     },
-    //     {
-    //         "name": "Sal",
-    //         "type": "21"
-    //     },
-    //     {
-    //         "name": "Jack",
-    //         "type": "21"
-    //     },
-    //     {
-    //         "name": "John",
-    //         "type": "21"
-    //     },
-    //     {
-    //         "name": "Peter",
-    //         "type": "21"
-    //     }
-    // ];
+var app = angular.module('myApp', []);
+app.controller('userCtrl', function($scope,$http) {
     $http.get('data.json').then(function (response) {
         $scope.users = response.data;
     });
-
+    $scope.typeEnum = e5.typeEnum;
 
     $scope.saveUser = function(id) {
         $scope.users.push({id:7, name:'yin',type:"12" });
@@ -58,5 +31,10 @@ module.controller('userCtrl', function($scope,$http) {
         $scope.users[index].edit[prop] = true;    //我猜你是这样写的，在这里后边加一句
         document.getElementById(prop+"_" + index).focus();
         setTimeout(function(){document.getElementById(prop+"_" + index).focus();},10);
+    }
+});
+app.filter('typeName', function() { //可以注入依赖
+    return function(text) {
+        return e5.typeEnum[text];
     }
 });
