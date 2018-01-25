@@ -27,9 +27,8 @@ module.controller('userCtrl', function($scope,$http) {
     //         "type": "21"
     //     }
     // ];
-    $http.get('data.json').then(function (data) {
-        console.log(data);
-        $scope.users = data;
+    $http.get('data.json').then(function (response) {
+        $scope.users = response.data;
     });
 
 
