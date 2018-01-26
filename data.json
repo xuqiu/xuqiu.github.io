@@ -11,18 +11,22 @@
   },
   {
     "name": "Sal",
-    "type": "21"
+    "type": "21",
+    "photo": "http://i4.bvimg.com/629651/a508279ca2eac902.png"
   },
   {
     "name": "Jack",
-    "type": "21"
+    "type": "21",
+    "photo": "http://i4.bvimg.com/629651/a508279ca2eac902.png"
   },
   {
     "name": "John",
-    "type": "21"
+    "type": "21",
+    "photo": "http://i4.bvimg.com/629651/a508279ca2eac902.png"
   },
   {
     "name": "Peter",
-    "type": "21"
+    "type": "21",
+    "photo": "http://i4.bvimg.com/629651/a508279ca2eac902.png"
   }
 ]
