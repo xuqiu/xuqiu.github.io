@@ -5,23 +5,36 @@
 <head>
     <meta charset="UTF-8">
     <title>E5</title>
+    <style>
+        div.container ul li
+        {
+            float:left; /* 向左漂移，将竖排变为横排 */
+        }
+        div.container ul
+        {
+            border: 1px solid #000000;
+        }
+        div.container li
+        {
+            border: 1px solid #55a532;
+            display: inline-list-item;
+        }
+    </style>
 </head>
 <body ng-app="myApp" ng-controller="userCtrl">
 
 <div class="container">
 
     <h3>Users</h3>
-    <li style="height: 300px; width: 100%">
-    <li ng-repeat="user in users">
+    <ul style="height: 200px; width: 400px">
+    <li ng-repeat="user in users" style="height: 30%">
         <span  ng-hide="user.edit['photo']"><img ng-src='{{ user.photo }}' style="max-width: 200px"/></span>
     </li>
-
-    </li>
-    <hr>
+    </ul>
 
 </div>
 
-<script src="js/myUsers.js"></script>
+<script src="js/e5Show.js"></script>
 <script src="js/e5.js"></script>
 </body>
 </html>
