@@ -9,7 +9,6 @@
  - 殷振南/男/1983 
  - 本科/黑龙江东方学院 
  - 工作年限：10年
- - 技术博客：http://xuqiu.github.io
  - Github：http://github.com/xuqiu
 
  - 期望职位：Java高级程序员，架构师
