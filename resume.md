@@ -18,7 +18,7 @@
 ---
 # 技术栈
 
-- Web开发：JAVA/spring全家桶/常用模板语言/Node
+- Web开发：JAVA/spring全家桶/webFlux/常见模板语言/Node
 - 框架/中间件：Redis/MQ/kafka/akka/dubbo
 - 前端：angular/vue/typescript/微信小程序
 - 数据库相关：MySQL/Oracle/Hbase/MongoDB/influxDB/OpenTsDB
