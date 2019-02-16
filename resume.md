@@ -80,6 +80,7 @@
  - [y-control](http://github.com/xuqiu/y-control)：电脑远程监控服务
                                                   服务端支持各种操作系统(需装JVM)(测试过window,macos,ubantu)
                                                   客户端只需要使用浏览器,手机 平板 PC都可以 访问服务端ip:port即可
+                                                  后面打算重构为webRTC实现,打通NAT. 最后通过随机生成的url就可以在任何网络下访问.
  - [e舞成就](https://github.com/e5cm/e5cm.github.io): 一个跳舞机游戏爱好者的功能性网站[e5cm.github.io](https://e5cm.github.io). 有对应的微信小程序-e舞大佬速成班,可以晒个人战绩,已发布.
 
 ## 技术文章
