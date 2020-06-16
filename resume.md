@@ -21,7 +21,7 @@
 - 后端：JAVA/spring相关/webFlux/常见模板语言/Node
 - 框架/中间件：Redis/MQ/kafka/akka/dubbo
 - 前端：react/angular/vue/typescript/微信小程序
-- 数据库相关：MySQL/Oracle/Hbase/MongoDB/influxDB/OpenTsDB
+- 数据库相关：MySQL/PostgreSQL/Oracle/Hbase/MongoDB/influxDB/OpenTsDB
 - 常用工具：Git/Maven/idea
 - DevOps: Linux,k8s,docker,常见CI/CD方案,常见脚本语言
 ---
