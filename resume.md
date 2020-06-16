@@ -98,10 +98,10 @@
 # 开源项目和作品
 
  - [coswee](http://github.com/xuqiu/coswee)：工程调用链及消耗分析工具,配置简洁,界面优美简约. 在公司项目重构优化中多次用到.
- - [y-control](http://github.com/xuqiu/y-control)：电脑远程监控服务
-                                                  服务端支持各种操作系统(需装JVM)(测试过window,macos,ubantu)
-                                                  客户端只需要使用浏览器,手机 平板 PC都可以 访问服务端ip:port即可
-                                                  后面打算重构为webRTC实现,打通NAT. 最后通过随机生成的url就可以在任何网络下访问.
+ - [y-control](http://github.com/xuqiu/y-control)：电脑远程监控服务  
+                                                  服务端支持各种操作系统(需装JVM)(测试过window,macos,ubantu)  
+                                                  客户端只需要使用浏览器,手机 平板 PC都可以 访问服务端ip:port即可  
+                                                  后面打算重构为webRTC实现,打通NAT. 最后通过随机生成的url就可以在任何网络下访问.  
  - [e舞成就](https://github.com/e5cm/e5cm.github.io): 一个跳舞机游戏爱好者的功能性网站[e5cm.github.io](https://e5cm.github.io). 有对应的微信小程序-e舞大佬速成班,可以晒个人战绩,已发布.
 
 ## 技术文章
@@ -113,7 +113,7 @@
 - 最近家里刚装修完不久 对智能家居和iot比较感兴趣. 不久前逆向了格力的app,实现了小米音箱控制格力中央空调. 可以做到在哪屋说开空调,哪屋的空调就会打开. [实现方式](http://www.miui.com/forum.php?mod=viewthread&tid=21303104&extra=) (后面改成了homeassistant插件实现,小爱音响也破解了,更直接更优雅. [实现方式](https://bbs.hassbian.com/thread-6807-1-1.html))
 - 目前在想办法绕过小米智能平台对关键词的限制,思路是 万能红外>红外接收模块>树莓派>云主机>home assistant 目前已经在调试UART了.(最后按照论坛上的方法硬件破解了小爱音箱,不用绕来绕去了)
 - 在逆向格力云,米家和其他智能app时,对iot服务端建设有些想法,所以想看一看相关的机会.
-- 之前和小伙伴参加了阿里的iot极客大赛,做的智能调料盒,入了决赛(全国进6).不过最后没能拿到奖.
+- 之前和小伙伴参加了19年阿里云溪大会iot极客大赛,做的智能调料盒,入了决赛(全国2000+进6).作为云溪大会特邀嘉宾参与了决赛演讲.
 
 
 ---
