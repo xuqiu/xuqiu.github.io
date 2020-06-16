@@ -23,6 +23,7 @@
 - 前端：react/angular/vue/typescript/微信小程序
 - 数据库相关：MySQL/Oracle/Hbase/MongoDB/influxDB/OpenTsDB
 - 常用工具：Git/Maven/idea
+- DevOps: Linux,k8s,docker,CI/CD,常见脚本语言
 ---
 
 # 工作经历
