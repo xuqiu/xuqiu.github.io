@@ -106,8 +106,8 @@
  - [e舞成就](https://github.com/e5cm/e5cm.github.io): 一个跳舞机游戏爱好者的功能性网站[e5cm.github.io](https://e5cm.github.io). 有对应的微信小程序-e舞大佬速成班,可以晒个人战绩,已发布.
 
 ## 技术文章
-很少写博客文章,被转载最多的竟是一篇刚毕业时写的外挂原创技术文章 [c#做外挂 step by step](http://www.ghoffice.com/bbs/read-htm-tid-42515.html)
-
+- 博客文章较少,被转载最多的是一篇刚毕业时写的外挂原创技术文章 [c#做外挂 step by step](http://www.ghoffice.com/bbs/read-htm-tid-42515.html)
+- 此外在iot极客论坛有一些 [原创文章](https://bbs.hassbian.com/home.php?mod=space&uid=16822&do=thread&view=me&type=thread&from=space)
 
 ## 最近
 - 最近的最近,刚刚把家里的床改造成了智能床,实时采集重力信息,实现分析睡眠时间,睡眠质量,体重跟踪等.硬件使用esp8266+hx711+半桥传感器,软件用到mqtt>nodered>influxdb>grafana,后面会写学习算法自动分析有用信息.
