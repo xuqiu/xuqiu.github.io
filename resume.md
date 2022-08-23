@@ -10,6 +10,7 @@
  - 本科/黑龙江东方学院/计算机科学与技术/03-07
  - 工作年限：15年
  - Github：http://github.com/xuqiu
+ - LeetCode: https://leetcode.com/yinzhennan
 
  - 期望职位：Java开发，架构师
  - 期望薪资：面议
